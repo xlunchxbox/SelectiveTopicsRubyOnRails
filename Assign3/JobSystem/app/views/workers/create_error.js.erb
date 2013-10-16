@@ -1,0 +1,4 @@
+$('#workerslist').effect('shake');
+$('#error').html("<%= escape_javascript(@worker.errors.full_messages.join(',')) %>");
+$('#error').fadeIn();
+setTimeout(function() { $('#error').fadeOut(); }, 2000);

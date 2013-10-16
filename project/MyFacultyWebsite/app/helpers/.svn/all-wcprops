@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/u13_ror/!svn/ver/1986/cruz_lee/project/MyFacultyWebsite/app/helpers
+END
+degrees_helper.rb
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/u13_ror/!svn/ver/1986/cruz_lee/project/MyFacultyWebsite/app/helpers/degrees_helper.rb
+END
+pages_helper.rb
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/u13_ror/!svn/ver/1986/cruz_lee/project/MyFacultyWebsite/app/helpers/pages_helper.rb
+END
+awards_helper.rb
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/u13_ror/!svn/ver/1986/cruz_lee/project/MyFacultyWebsite/app/helpers/awards_helper.rb
+END
+faculty_members_helper.rb
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/u13_ror/!svn/ver/1986/cruz_lee/project/MyFacultyWebsite/app/helpers/faculty_members_helper.rb
+END
+application_helper.rb
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/u13_ror/!svn/ver/1986/cruz_lee/project/MyFacultyWebsite/app/helpers/application_helper.rb
+END
+courses_helper.rb
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/u13_ror/!svn/ver/1986/cruz_lee/project/MyFacultyWebsite/app/helpers/courses_helper.rb
+END
+researches_helper.rb
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/u13_ror/!svn/ver/1986/cruz_lee/project/MyFacultyWebsite/app/helpers/researches_helper.rb
+END
+sessions_helper.rb
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/u13_ror/!svn/ver/1986/cruz_lee/project/MyFacultyWebsite/app/helpers/sessions_helper.rb
+END
+employments_helper.rb
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/u13_ror/!svn/ver/1986/cruz_lee/project/MyFacultyWebsite/app/helpers/employments_helper.rb
+END
+publications_helper.rb
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/u13_ror/!svn/ver/1986/cruz_lee/project/MyFacultyWebsite/app/helpers/publications_helper.rb
+END

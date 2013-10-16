@@ -1,0 +1,1 @@
+$('#workerlist').html("<%= escape_javascript(render 'list_workers') %>");

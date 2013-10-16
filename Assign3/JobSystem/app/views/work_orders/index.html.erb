@@ -1,0 +1,20 @@
+<h1>Search for a Work Order</h1>
+<hr>
+<%= form_tag search_search_results_path, :method => 'get' do %>
+	
+	<%= select_tag :search, options_for_select(status_list) %>
+	
+    <%= submit_tag "Search", :class => "btn btn-primary btn-large" %>  
+<% end %>
+
+<br/>
+
+
+
+<h1>Listing Work Orders</h1>
+<hr>
+<div id="orderslist">
+	<%= render 'list_orders'%>
+</div>
+
+| <%= link_to 'Workers', workers_path %> |

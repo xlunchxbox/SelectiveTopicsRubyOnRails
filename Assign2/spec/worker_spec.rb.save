@@ -1,0 +1,5 @@
+require File.expand_path('../../worker', __FILE__)
+
+describe Worker do
+  
+end

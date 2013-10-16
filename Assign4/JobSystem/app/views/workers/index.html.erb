@@ -1,0 +1,17 @@
+<center>
+<h1>Listing Workers</h1>
+</center>
+<hr>
+
+<center>
+	<%= link_to 'New Worker', new_worker_path, id:"new_link", remote: true %>
+
+<br/>
+<hr>
+
+<div id="workerlist">
+	<%= render 'list_workers' %>
+</div>
+
+<%= link_to 'Work Orders', work_orders_path%>
+</center>

@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/u13_ror/!svn/ver/1836/cruz_lee/Assign4/JobSystem/config/initializers
+END
+inflections.rb
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/u13_ror/!svn/ver/1836/cruz_lee/Assign4/JobSystem/config/initializers/inflections.rb
+END
+session_store.rb
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/u13_ror/!svn/ver/1836/cruz_lee/Assign4/JobSystem/config/initializers/session_store.rb
+END
+secret_token.rb
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/u13_ror/!svn/ver/1836/cruz_lee/Assign4/JobSystem/config/initializers/secret_token.rb
+END
+backtrace_silencers.rb
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/u13_ror/!svn/ver/1836/cruz_lee/Assign4/JobSystem/config/initializers/backtrace_silencers.rb
+END
+filter_parameter_logging.rb
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/u13_ror/!svn/ver/1836/cruz_lee/Assign4/JobSystem/config/initializers/filter_parameter_logging.rb
+END
+mime_types.rb
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/u13_ror/!svn/ver/1836/cruz_lee/Assign4/JobSystem/config/initializers/mime_types.rb
+END
+wrap_parameters.rb
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/u13_ror/!svn/ver/1836/cruz_lee/Assign4/JobSystem/config/initializers/wrap_parameters.rb
+END

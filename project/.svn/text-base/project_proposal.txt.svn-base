@@ -1,0 +1,15 @@
+ACADEMIC PROJECT
+
+For our project, we will be developing a sample faculty web site template that will help standardize the layout and appearance of each faculty member's personal web site at a university.  The website shall contain pages that are usually shared by all faculty sites, such as the following below:
+
+ - Home page
+ - Courses offered
+ - Research areas
+ - Publications
+ - Curriculum Vitae
+ - Photos
+ - Contact information
+
+A faculty member will be given login access and, while logged in, can add, edit, or delete any content to be displayed on any of the web pages listed above.  In addition, the faculty member will be given the option to upload files such as word documents, PDFs, and images for site visitors to view/download such as course syllabi and profile images.  
+
+Overall, this website shall only serve as an online personal profile for the faculty member and can be viewed publicly by site visitors.  Functionalities involving students accessing course-specific materials such as exams, assignments, and lecture slides will not be included.

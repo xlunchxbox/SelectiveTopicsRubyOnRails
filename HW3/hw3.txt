@@ -1,0 +1,27 @@
+HW 3. Due 11:59PM July 30th
+
+Mention the fundamental principles and patterns that Rails is built on. Explain each of
+those principles and how they help. Are there any disadvantages to these.
+
+
+Convention over Configuration:
+Is a design paradigm that looks to simplify development but at the same time not sacrificing the flexibility needed to develop an application. For example, in a rails project there are many files that are standard and need for each project. Instead of writing these files by hand every time, a standard configuration is generated when you create a new rails project. Thus saving you time and increasing productivity. Also the rules for naming in rails really emphasize convention. If you have  a model named User, then the database table for it is pluralized as Users then the associated views and controller will also be named using the same conventions: users_controller and all the associated views are collected in the users folder under views.
+
+DRY(Don't Repeat Yourself):
+Is a principle that aims at reducing repetition in code. Rails has ways of avoiding duplication, for example in the views much of the same code is shared. The new, and edit views both use the same form and it is imported into each view using partials such as <%= render 'form'>.
+
+Active Record Pattern:
+Is an architectural pattern that relates to how data is stored in a relational database. A database table is wrapped up into a class. So when an object instance is created it is tied to a single row in a given table, then upon save it is saved into the database. In Ruby this is accomplished with Active Record and one of the major benefits of Active Record in Ruby is removing the need to write raw SQL to interact with the database. In most applications if something in the database changes or if the database itself changes, major revisions to the application are needed. With Active Record in ruby/rails the developer only needs to worry about changing a couple entries in the database.yml and enjoy a painless transition.
+
+MVC(Model View Controller):
+MVC is a pattern that separates how data is viewed, modified, and retrieved. The model manages the data and responds to requests to create, read, update, and delete the data. The view displays the information and is what the user will see and interact with. The controller responds to the interactions in the view and interacts with the model. The benefits of this paradigm is the strict separation of the functionality of the code, which allows for more flexibility down the road without having to rewrite major portions of the code. For example, if the information displayed to the view changes down the road, only parts of the view would have to be rewritten not interfere with the functionality of the controller or the model.
+
+Rake
+Rake is a very powerful tool that can be used with rails and can make many tasks simple and painless. In a rake file one can determine a set of actions to execute and dependencies that they may rely on. For example, one can type "rake" at the command line and then write a file with a default task to start the program that is then dependent on other tasks such as creating the database, populating it with information, and then destroying the database after the program has finished running. 
+
+CRUD(Create, Read, Update, Delete)
+CRUD is the four basic functions of persistent storage and in is used heavily in rails in conjunction with the database. Rails supports CRUD and when controllers are generated each controller will have the four basic CRUD operations for interacting with the given model in the database. 
+
+REST(Representational State Transfer)
+REST is a architecture for distributed systems on the web and how these systems talk and respond to each other. In rails this is handled with routing. Within the routing you can decide how to respond for a specific request. From here for example you can have your page route to a specific page on your site when the user is accessing the root link by using root to: 'static_pages#home' or to another page.
+

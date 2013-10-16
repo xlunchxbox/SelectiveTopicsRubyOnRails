@@ -1,0 +1,14 @@
+class Wizard
+  def method_missing(method_name, *args)
+    raise('Unknown spell') unless respond_to?(method_name)
+  end
+
+  def learn(spell, &code)
+<<<<<<< .mine
+    Wizard.send(:define_method, spell, &code)
+=======
+    (class << self; self; end).class_eval { define_method spell, &code }
+>>>>>>> .r183
+    puts ''
+  end
+end

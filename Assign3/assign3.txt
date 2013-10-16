@@ -1,0 +1,31 @@
+Assign3 Due 11:59PM August 2nd
+
+In Assignment 2 you wrote a console application. You will create a 
+Rails application for the same here (you are not required to copy or
+reuse code from that assignment. Feel free to create fresh code here).
+
+Your code should have the following:
+
+Good unit and functional tests.
+High coverage
+User should be able to view the workers when they visit your application url
+(without providing any controller name - so simply visiting 
+http://localhost:3000 should show the workers list).
+
+On this page, list workers and provide a link for work orders.
+
+Clicking on the work orders should present a search page where work orders 
+matching a search criteria (status) can be displayed.
+
+When search is complete, list work order details along with link to a worker that
+the work order is assigned to.
+
+When a worker is selected, it should list details of the worker and a list
+of all work orders assigned to that worker.
+
+Provide a way to assign a work order to a worker.
+
+Make the application intuitive and easy to use to managing (CRUD operations on) worker and work orders.
+
+
+

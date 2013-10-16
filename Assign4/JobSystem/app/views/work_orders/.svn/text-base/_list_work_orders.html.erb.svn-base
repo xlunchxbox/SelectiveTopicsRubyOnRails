@@ -1,0 +1,23 @@
+<table class = "table table-bordered table-striped table table-hover pretty">
+  <thead>
+    <tr>
+      <th>Worker</th>
+      <th>Details</th>
+      <th>Status</th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @work_orders.each do |work_order| %>
+      <tr>
+        <td><%= work_order.worker.first_name %> <%= work_order.worker.last_name %></td>
+		<td><%= work_order.details %></td>
+        <td><%= work_order.status %></td>
+        <td><%= link_to 'Show', work_order %></td>
+        <td><%= link_to 'Destroy', work_order, method: :delete, data: { confirm: 'Are you sure?' }, remote: true  %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>

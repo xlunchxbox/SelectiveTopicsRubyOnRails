@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/u13_ror/!svn/ver/1986/cruz_lee/project/MyFacultyWebsite/app/models
+END
+award.rb
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/u13_ror/!svn/ver/1986/cruz_lee/project/MyFacultyWebsite/app/models/award.rb
+END
+faculty_member.rb
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/u13_ror/!svn/ver/1986/cruz_lee/project/MyFacultyWebsite/app/models/faculty_member.rb
+END
+.keep
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/u13_ror/!svn/ver/1986/cruz_lee/project/MyFacultyWebsite/app/models/.keep
+END
+course.rb
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/u13_ror/!svn/ver/1986/cruz_lee/project/MyFacultyWebsite/app/models/course.rb
+END
+employment.rb
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/u13_ror/!svn/ver/1986/cruz_lee/project/MyFacultyWebsite/app/models/employment.rb
+END
+publication.rb
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/u13_ror/!svn/ver/1986/cruz_lee/project/MyFacultyWebsite/app/models/publication.rb
+END
+degree.rb
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/u13_ror/!svn/ver/1986/cruz_lee/project/MyFacultyWebsite/app/models/degree.rb
+END
+research.rb
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/u13_ror/!svn/ver/1986/cruz_lee/project/MyFacultyWebsite/app/models/research.rb
+END

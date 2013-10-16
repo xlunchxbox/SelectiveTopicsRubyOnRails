@@ -1,0 +1,34 @@
+<div class='main_content'>
+  <h2>Publications</h2>
+  <table class='table table-bordered'>
+    <tr>
+      <th class='span2'>Cover</th>
+      <th>Information</th>
+    </tr>
+
+    <% @publications.each do |publication| %>
+      <tr>
+        <td class='span2'>
+          <% image_path = publication.image_url.blank? ? 'UA-logo-red.png' : publication.image_url %>
+          <%= image_tag(image_path, :class => 'img-index') %>
+        </td>
+        <td>
+        	<strong><%= best_in_place_if signed_in?, publication, :title %> <%= best_in_place_if signed_in?, publication, :year %> </strong>
+        	<p><i><%= best_in_place_if signed_in?, @faculty_member, :first_name %> <%= best_in_place_if signed_in?, @faculty_member, :last_name %></i></p>
+        	<p>
+            <%= best_in_place_if signed_in?, publication, :summary %>
+            
+          </p>
+		  <%= link_to raw("<i class=\"icon-bin icon-white\"></i> Remove"), publication, method: :delete, data: { confirm: 'Are you sure?' }, class: 'btn btn-mini btn-danger' if signed_in? %>
+        </td>
+      </tr>
+    <% end %>
+  </table>
+  
+  <% if signed_in?%>
+  	<p>*Click on fields to edit*</p>
+  <% end %>
+  
+  <%= link_to 'Add publication', new_publication_path, class: 'btn' if signed_in? %>
+</div>
+<%# best_in_place_if signed_in?, course, :summary %>

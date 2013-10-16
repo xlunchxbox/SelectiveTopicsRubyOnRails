@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/u13_ror/!svn/ver/1836/cruz_lee/Assign4/JobSystem/app/views/workers
+END
+edit.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/u13_ror/!svn/ver/1836/cruz_lee/Assign4/JobSystem/app/views/workers/edit.html.erb
+END
+_list_workers.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/u13_ror/!svn/ver/1836/cruz_lee/Assign4/JobSystem/app/views/workers/_list_workers.html.erb
+END
+index.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/u13_ror/!svn/ver/1836/cruz_lee/Assign4/JobSystem/app/views/workers/index.html.erb
+END
+destroy.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/u13_ror/!svn/ver/1836/cruz_lee/Assign4/JobSystem/app/views/workers/destroy.html.erb
+END
+new.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/u13_ror/!svn/ver/1836/cruz_lee/Assign4/JobSystem/app/views/workers/new.html.erb
+END
+create.js.erb
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/u13_ror/!svn/ver/1836/cruz_lee/Assign4/JobSystem/app/views/workers/create.js.erb
+END
+show.json.jbuilder
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/u13_ror/!svn/ver/1836/cruz_lee/Assign4/JobSystem/app/views/workers/show.json.jbuilder
+END
+show.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/u13_ror/!svn/ver/1836/cruz_lee/Assign4/JobSystem/app/views/workers/show.html.erb
+END
+destroy.js.erb
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/u13_ror/!svn/ver/1836/cruz_lee/Assign4/JobSystem/app/views/workers/destroy.js.erb
+END
+new.js.erb
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/u13_ror/!svn/ver/1836/cruz_lee/Assign4/JobSystem/app/views/workers/new.js.erb
+END
+_form.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/u13_ror/!svn/ver/1836/cruz_lee/Assign4/JobSystem/app/views/workers/_form.html.erb
+END
+create.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/u13_ror/!svn/ver/1836/cruz_lee/Assign4/JobSystem/app/views/workers/create.html.erb
+END
+index.json.jbuilder
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/u13_ror/!svn/ver/1836/cruz_lee/Assign4/JobSystem/app/views/workers/index.json.jbuilder
+END

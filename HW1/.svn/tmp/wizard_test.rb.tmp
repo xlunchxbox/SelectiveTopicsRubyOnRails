@@ -1,0 +1,54 @@
+# HW 1. Due 11:59PM July 16th
+# You can check in your solution as many times as you like.
+# You will not have write access to check in files for this HW after the deadline.
+
+#Feel free to ask for reviews along the way as you work on your homework and assignments.
+#Please see the reviews/readme.txt file for details on how to ask for a review.
+
+# Write a Wizard that will learn spells
+# You can then ask the wizard to practice some of those spells by calling it.
+# What's a better way to explain that some unit tests!
+
+require './wizard'
+require 'test/unit'
+
+class WizardTest < Test::Unit::TestCase
+  def setup
+    @wiz = Wizard.new
+  end
+  
+  def test_teach_one_spell
+    got_here = false
+    @wiz.learn('telepathy') { puts "I see what you're thinking"; got_here = true}
+    
+    @wiz.telepathy
+    assert(got_here)
+  end
+    
+  def test_teach_another_spell
+    got_here = false
+    spell_code = lambda { puts "no more clouds"; got_here = true}
+    @wiz.learn('stop_rain', &spell_code)
+    
+    @wiz.stop_rain
+    assert(got_here)
+  end
+   
+  def test_teach_a_couple_of_spells
+    got_here1 = false
+    got_here2 = false
+    @wiz.learn('get_what_you_want') { |want| puts want; got_here1 = true }
+    @wiz.learn('sleep') { puts 'zzzzzzzzzzzz'; got_here2 = true}
+    
+    @wiz.get_what_you_want("I'll get an 'A'")
+    @wiz.sleep
+    
+    assert(got_here1 && got_here2)
+  end
+ 
+  def test_unknown_spell
+    @wiz.learn('rain') { puts '...thundering...' }
+    
+    assert_raise(RuntimeError, "Unknown Spell") {@wiz.raln }
+  end  
+end

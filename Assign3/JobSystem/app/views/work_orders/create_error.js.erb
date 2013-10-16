@@ -1,0 +1,4 @@
+$('#orderslist').effect('shake');
+$('#error').html("<%= escape_javascript(@work_order.errors.full_messages.join(',')) %>");
+$('#error').fadeIn();
+setTimeout(function() { $('#error').fadeOut(); }, 2000);

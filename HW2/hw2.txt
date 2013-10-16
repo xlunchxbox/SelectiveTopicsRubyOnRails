@@ -1,0 +1,21 @@
+HW 2. Due 11:59PM July 23rd
+
+What language are you most familiar with?
+
+Between the two of us we have experience in C++, Java, C#, and since March we have both been programming in ruby and rails.
+
+
+From that language point of view, how is Ruby similar or different?
+
+Ruby is similar in that it provides many of same features of the other languages, such as OO, and classes. Ruby differs from Java and C++ in that it is a dynamically-typed programming language, meaning that type checking is performed at run-time as opposed to compilation time.  Also, the types of variables do not have to be specified in Ruby since it utilizes type-inferencing at run-time due to its dynamic nature.  This is perhaps one of my favorite features of the language since it makes programming a lot more convenient and flexible.  All of the little details are already handled by the language. Another great difference is that ruby takes out a lof of the redundant code that you write in languages like C++, Java, etc. For example when creating a class, writing your getters and setters is cleaner and simpler to write in ruby. Another feature that differentiates Ruby from other languages such as C++ and Java is that Ruby is fully object-oriented, meaning that you can call methods on practically anything, even nil.  It does not deal with the incompatibility issues between primitive data types and objects.
+
+
+What are some of the things that excited you as you learn Ruby?
+
+I like learning about all the new features of ruby and the elegance that it has. It seems to me that there is always a more elegant solution with less code to accomplish the same tasks in other languages. For example, our Spring 2013 semester web application project in COSC 4351 was created using Ruby on Rails with only 900 lines of code compared to another group's C# application with around 3500 lines of code. The power of ruby and rails also really sped up our development compared to other teams. We are also really enjoying learning about the "magic" that is going on under the hood when you use rails and fully understanding what is happening now.
+
+
+What are some of the things that concerns you with Ruby?
+
+What concerns us is that at times, Ruby's elegance can puzzle and confuse us because of the high level of abstraction that can be involved. We both like to really understand what is going on beneath the surface versus just accepting the "magic" of what his happening. For example, the first homework assignment required a bit of research about the metaprogramming capabilities of Ruby. We both had had an introduction in the concept of metaprogramming, but we didn't know how it was achieved in terms of code so we had to delve into that area quite a bit.
+
