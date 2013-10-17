@@ -1,5 +1,0 @@
-$('#new_worker').remove();
-$('#new_link').show();
-$('#workerlist').html("<%= escape_javascript(render 'list_workers') %>");
-
-

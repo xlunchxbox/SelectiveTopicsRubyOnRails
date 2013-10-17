@@ -1,5 +1,0 @@
-$('#new_work_order').remove();
-$('#new_link').show();
-$('#workorderlist').html("<%= escape_javascript(render 'list_work_orders') %>");
-
-
